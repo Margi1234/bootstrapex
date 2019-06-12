@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>My Website</title>
+</head>
+<style>
+    .container {
+        background-color: #222342;
+        max-width: 800px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .header {
+        background-color: #444564;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        font-size: 300%;
+        font-weight: bold;
+        text-align: center;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        position: relative;
+    }
+
+    .smallimage {
+        width: 100px;
+        top: -20px;
+        left: 150px;
+        position: relative;
+    }
+
+    .footer {
+        color: white;
+        text-align: center;
+        background-color: #614545;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    .lit {
+        margin-bottom: 15px;
+        list-style: none;
+    }
+    .flexgrid{
+        display: -webkit-flex;
+        color:white;
+        display: flex;
+        margin:auto -1rem 1 rem;
+    }
+    .col
+    {
+        background-color: white;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 1rem;
+
+    }
+    .sidebar{
+        
+        flex:1;
+
+    }
+    .main{
+        
+        flex:3;
+    }
+    .full{
+        background-color: white;
+        height: 350px;
+        width: 740px;
+    }
+    .bit{
+        background-color: white;
+        width: 740px;
+        height: 50px;
+    }
+    </style>
+
+    <body>
+    <div class="container">
+        <h1></h1>
+        <div class="header">
+            <a href="#"></a><img class="smallimage"
+                src="C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\pc.png" alt="img not available"
+                align="LEFT"></a>
+            <header>My Website!</header>
+
+        </div>
+        <div class="bit"></div>
+        <div class="full"style="display: flex;flex-direction: row">
+            <div class="col sidebar" style ="align-items: flex-start">
+                
+                <ul style="justify-content: flex-start">
+                    
+                    <a href="#">
+                        <li class="lit">Home</li>
+                    </a>
+                    <a href="#">
+                        <li class="lit">About</li>
+                    </a>
+                    <a href="#">
+                        <li class="lit">Interesting Things</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="lit">Boring Things</li>
+                    </a>
+                    <a href="#">
+                        <li class="lit">Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col main">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dicta eum at enim, eos quod incidunt repellat eligendi amet accusantium!</p>
+
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy Foobar.Inc</p>
+        </div>
+    
+</div>
+
+</body>
+
+
+</html>
