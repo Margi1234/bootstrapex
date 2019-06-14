@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    margin: 0% !important;
+    
+}
+.box-1{
+    flex:1;
+    background-color: rgb(218, 82, 24);
+    color: rgb(236, 124, 76);
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.box-2{
+    padding-top: 120px;
+    padding-left: 15px;
+    flex:4;
+}
+h1{
+    font-style: oblique;
+    font-size: 50px;
+    margin: 0px;
+}
+.circleimg{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border-color:rgb(236, 124, 76);
+    border-width: 5px;
+    border-style: solid;
+    
+}
+.margin
+{
+    margin-left: 20px;
+    
+}
+.icons
+{
+    border-radius: 50%;
+    color:rgb(31, 29, 29);
+    font-size: 25px;
+    
+}
+.col
+{
+    color: gray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.padding
+{
+    padding-bottom: 150px;
+}
+.categories ul{
+    list-style: none;
+    padding-left:0px; 
+}
+.categories li{
+    padding-bottom:15px;
+    list-style: none;
+    text-align: center;
+    color:rgb(236, 124, 76);
+}
+h1:before {
+    content: 'CLARENCE';
+    color:black;
+    font-size: 50px;
+}
+h1:after {
+    content: 'TAYLOR';
+    color:rgb(218, 82, 24);
+    font-size: 50px;
+}
+.color{
+    color: rgb(218, 82, 24);
+}
+.text{
+    color: grey;
+    font-size: 20px;
+}
+
+a:link{
+    
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.white{
+    color:rgb(236, 124, 76);
+}
+.box-11{
+   
+  padding-left: 0px;
+  
+}
+
+.box-12{
+  
+  padding-left: 15px;
+  
+}
+
+.box-13{
+  
+  padding-left: 15px;
+  
+}
+.box-14{
+    
+    padding-left: 15px;
+    
+  }
+  
+  
